@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 
 from Load_WLAN import *
 
-if __name__=="__main__":
+if __name__ == "__main__":
 
     digits = load_digits()
     train_x, test_x, train_y, test_y = train_test_split(digits.data, digits.target)
